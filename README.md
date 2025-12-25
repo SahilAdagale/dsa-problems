@@ -6,7 +6,7 @@ This repository contains basic Data Structures and Algorithms practice
 programs written in C++.
 
 The purpose of this repo is to strengthen fundamentals such as loops,
-conditions, and basic problem-solving logic.
+conditions, and basic problem-solving logic.git
 
 ## Concepts Covered
 - For loops and while loops
