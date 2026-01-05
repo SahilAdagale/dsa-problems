@@ -1,25 +1,52 @@
-# dsa-problems
+📚 Data Structures & Algorithms Practice
 
-# DSA Problems in C++
+This repository contains my systematic practice of Data Structures and Algorithms (DSA).
+The goal is to build strong problem-solving skills, improve coding efficiency, and prepare for technical interviews and internships.
 
-This repository contains basic Data Structures and Algorithms practice
-programs written in C++.
+🎯 Objectives
 
-The purpose of this repo is to strengthen fundamentals such as loops,
-conditions, and basic problem-solving logic.
+Master core DSA concepts
 
-## Concepts Covered
-- For loops and while loops
-- Input and output
-- Number-based problems
-- Basic C++ syntax
+Solve problems with optimal time and space complexity
 
-## How to Run
-Compile the program using:
-g++ try.cpp -o try
+Build consistency and discipline in daily practice
 
-Run the executable:
-./try
+Prepare for coding interviews and competitive programming
 
-## Author
-Sahil
+🛠 Languages Used
+
+C++
+
+🧪 Platforms Used
+
+LeetCode
+
+GeeksforGeeks
+
+HackerRank
+
+CodeStudio / Coding Ninjas
+
+🚀 Progress Strategy
+
+Daily problem-solving
+
+Focus on logic first, then optimization
+
+Revisit weak topics regularly
+
+Maintain consistency over speed
+
+📌 Notes
+
+Code is written for clarity first, optimization second
+
+Multiple approaches are added where helpful
+
+This repository is continuously updated
+
+📬 Contact
+
+If you have suggestions or want to discuss solutions, feel free to connect.
+
+Happy Coding 🚀
