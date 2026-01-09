@@ -15,9 +15,7 @@ int main(){
     int start=0;
     int end=n-1;
     while(start<end){
-        int temp=arr[start];
-        arr[start]=arr[end];
-        arr[end]=temp;
+        swap(arr[start], arr[end]);
         start++;
         end--;
 
