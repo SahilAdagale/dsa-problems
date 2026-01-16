@@ -6,15 +6,13 @@ using namespace std;
 void printsubarray(int* arr,int n){
     int maxSum=INT_MIN;
     for(int st=0;st<n;st++){
+        int currsum=0;
         for(int end=st;end<n;end++){
-            int Currsum=0;
-            for(int i=st;i<=end;i++){
-                Currsum+=arr[i];
-            }
-            cout << Currsum << ", "; 
-            maxSum=max(maxSum,Currsum);
+            currsum=currsum+arr[end];
+            cout<< currsum << ", ";
+            maxSum=max(maxSum,currsum);
         }
-        cout << endl;
+        cout<<endl;
     }
     cout <<"maximum subarray sum is :" << maxSum << endl;
 }
