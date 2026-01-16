@@ -8,11 +8,9 @@ void printsubarray(int* arr,int n){
     for(int st=0;st<n;st++){
         int currsum=0;
         for(int end=st;end<n;end++){
-            currsum=currsum+arr[end];
-            cout<< currsum << ", ";
+            currsum+=arr[end];
             maxSum=max(maxSum,currsum);
         }
-        cout<<endl;
     }
     cout <<"maximum subarray sum is :" << maxSum << endl;
 }
