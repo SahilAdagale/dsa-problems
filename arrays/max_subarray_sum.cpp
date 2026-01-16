@@ -5,11 +5,12 @@ using namespace std;
 
 void printsubarray(int* arr,int n){
     int maxSum=INT_MIN;
-    for(int st=0;st<n;st++){
-        int currsum=0;
-        for(int end=st;end<n;end++){
-            currsum+=arr[end];
-            maxSum=max(maxSum,currsum);
+    int currSum=0;
+    for(int i=0;i<n;i++){
+        currSum +=arr[i];
+        maxSum = max(maxSum,currSum);
+        if(currSum<0){
+            currSum=0;
         }
     }
     cout <<"maximum subarray sum is :" << maxSum << endl;
