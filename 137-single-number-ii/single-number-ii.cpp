@@ -1,15 +1,20 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
+        int n = nums.size();
         int ans = 0;
-        for (int i = 0; i < 32; ++i) {
+
+        for (int i = 0; i < 32; i++) {
             int cnt = 0;
-            for (int num : nums) {
+            for (int j = 0; j < n; j++) {
+                int num = nums[j];
                 cnt += ((num >> i) & 1);
             }
-            cnt %= 3;
-            ans |= cnt << i;
+
+            cnt = cnt % 3;
+            ans |= (cnt << i);
         }
+
         return ans;
     }
 };
